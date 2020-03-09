@@ -1,0 +1,36 @@
+
+.header{
+    text-align: left;
+    display: flex;
+    width: 80%;
+    margin: 2em auto;
+    justify-content: space-between;
+    border: 3px solid rgba(255, 255, 255, 0.63);
+    padding: 1em;
+    border-radius: 5px;
+
+    h1{
+        line-height: .8;
+    }
+
+
+    &__title{
+
+    }
+    &__score{
+        background-color: white;
+        text-align: center;
+        border-radius: 5px;
+        width: 30%;
+        p{
+            color: rgb(45, 45, 99);
+            font-size: .9em;
+            margin-bottom: 0;
+        }
+        h2{
+            color: rgb(9, 9, 70);
+            font-size: 3.5em;
+            margin: 0;
+        }
+    }
+}
