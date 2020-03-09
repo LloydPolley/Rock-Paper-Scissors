@@ -6,7 +6,7 @@ import "./Result.scss";
 const SelectOption = props => {
   return (
     <div className="resultsScreen">
-      <div className="ButtonsContainer">
+      <div className="resultsIcons">
         {datas.map(option => {
           if (option.option === props.playerOption) {
             return (
@@ -14,7 +14,7 @@ const SelectOption = props => {
                 key={option.option}
                 optionValue={option.option}
                 svg={option.svg}
-                run={props.run}
+                run={props.restartGame}
               />
             );
           }
@@ -26,7 +26,7 @@ const SelectOption = props => {
                 key={option.option}
                 optionValue={option.option}
                 svg={option.svg}
-                run={props.run}
+                run={props.restartGame}
               />
             );
           }

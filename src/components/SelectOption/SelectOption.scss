@@ -6,45 +6,49 @@
   background-repeat: no-repeat;
   background-size: 60%;
   background-position: center;
-  .Button-wrapper {
-    width: 50%;
+  
 
-    &:nth-child(1) {
-      .game-border {
-        border: 15px solid rgb(37, 49, 221);
-      }
-    }
-    &:nth-child(2) {
-      .game-border {
-        border: 15px solid rgb(255, 187, 0);
-      }
-    }
-    &:nth-child(3) {
-      .game-border {
-        border: 15px solid rgb(255, 47, 32);
-      }
-    }
+ 
+}
 
+.Button-wrapper {
+  width: 50%;
+
+  &:nth-child(1) {
     .game-border {
-      width: auto;
-      display: inline-block;
-      border-radius: 50%;
+      border: 15px solid rgb(37, 49, 221);
+    }
+  }
+  &:nth-child(2) {
+    .game-border {
+      border: 15px solid rgb(255, 187, 0);
+    }
+  }
+  &:nth-child(3) {
+    .game-border {
+      border: 15px solid rgb(255, 47, 32);
     }
   }
 
-  .game-icons {
-    background-color: white;
+  .game-border {
+    width: auto;
+    display: inline-block;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    color: black;
-    svg {
-      pointer-events: none;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  }
+}
+
+.game-icons {
+  background-color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  color: black;
+  svg {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
