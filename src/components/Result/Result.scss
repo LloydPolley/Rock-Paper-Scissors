@@ -23,7 +23,16 @@
         flex-direction: row;
         justify-content: space-around;
 
-        .Button-wrapper{
+        .resultsIcons__half{
+            width: 50%;
+            text-align: center;
+            
+            .Button-wrapper{
+                width: auto;
+            }
+        }
+
+        &__half{
             &:nth-child(1){
                 opacity: 0;
                 animation: fadeIn 1s ease .2s 1 forwards;

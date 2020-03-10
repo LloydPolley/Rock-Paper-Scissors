@@ -1,0 +1,55 @@
+.rulesContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+  h2 {
+    text-transform: uppercase;
+    margin-top: 3em;
+    color: #0e1030;
+  }
+
+  .rulesImage {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.closeRules {
+  position: absolute;
+  left: 5%;
+  top: 2.5%;
+}
+
+@media (min-width: 700px) {
+  .rulesContainer {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+
+    &::after {
+      position: absolute;
+
+      background-color: black;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      margin-top: 3em;
+      color: #0e1030;
+    }
+
+    .rulesImage {
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
